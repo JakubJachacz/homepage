@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Książki</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+    <button class="button">Włącz <span class="themeName">ciemny</span> motyw</button>
+
+    <header class="header">Kliknij poniżej, aby przejść do:
+
+        <nav>
+            <ul class="navigation_list">
+                <li><a class="navigation_link" href="#wprowadzenie">Wprowadzenie</a></li>
+                <li><a class="navigation_link" href="#benefity">Benefity</a></li>
+                <li><a class="navigation_link" href="#ksiazki">Najpopularniejsze książki</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="wprowadzenie" class="intro">
+            <h1>Wprowadzenie</h1>
+            Częsta lektura wpływa nie tylko na poziom wiedzy, ale także na efektywność pracy mózgu. Działanie to można
+            porównać do wpływu biegania na układ sercowo-naczyniowy: regularne czytanie poprawia kondycję komórek
+            mózgowych, pozwala lepiej zapamiętywać. Z wiekiem mózg starzeje się, a sięganie po książkę może ten proces w
+            naturalny sposób opóźnić, wskazują badania opublikowane w Neurology Huffington Post podaje, że czytanie może
+            opóźnić zaburzenia umysłu nawet o 32 procent.
+        </section>
+
+        <section id="benefity" class="benefits">
+            <h1>Benefity czytania książek</h1>
+            <ul>
+                <li>Czytanie pomaga w walce z Alzheimerem</li>
+                <li>Książka pomaga się zrelaksować</li>
+                <li>Czytanie uczy myślenia</li>
+                <li>Czytanie pobudza wyobraźnię</li>
+                <li>Czytanie rozwija umiejętność wysławiania się</li>
+                <li>Czytanie wyrabia cierpliwość</li>
+            </ul>
+        </section>
+        <section id="ksiazki">
+            <div class="table_container">
+                <table class="table">
+                    <caption class="caption"><strong>Najpopularniejsze książki wszech czasów</strong></caption>
+                    <tr class="table_row">
+                        <th class="table_cell table_header" scope="col">Tytuł</th>
+                        <th class="table_cell table_header" scope="col">Autor</th>
+                        <th class="table_cell table_header" scope="col">Ilość sprzedanych kopii</th>
+                    </tr>
+                    <tr class="table_row">
+                        <th class="table_cell table_header" scope="row">Don Quixote</th>
+                        <td class="table_cell">Miguel de Cervantes</td>
+                        <td class="table_cell">500 milionów</td>
+                    </tr>
+                    <tr class="table_row">
+                        <th class="table_cell table_header" scope="row">A Tale of Two Cities</th>
+                        <td class="table_cell">Charles Dickens</td>
+                        <td class="table_cell">200 milionów</td>
+                    </tr>
+                    <tr class="table_row">
+                        <th class="table_cell table_header" scope="row">The Lord of the Rings</th>
+                        <td class="table_cell">J.R.R. Tolkien</td>
+                        <td class="table_cell">150 milionów</td>
+                    </tr>
+                    <tr class="table_row">
+                        <th class="table_cell table_header" scope="row">The Little Prince</th>
+                        <td class="table_cell">Antoine de Saint-Exupery</td>
+                        <td class="table_cell">142 miliony</td>
+                    </tr>
+                    <tr class="table_row">
+                        <th class="table_cell table_header" scope="row">Harry Potter and the Sorcerer’s Stone</th>
+                        <td class="table_cell">J.K. Rowling</td>
+                        <td class="table_cell">107 milionów</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <footer>
+            Jakub Jachacz, kurs YouCode
+        </footer>
+    </main>
+</body>
+
+</html>

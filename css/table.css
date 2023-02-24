@@ -1,0 +1,25 @@
+.table {
+    font-family: "Lato", sand-serif;
+    border-collapse: collapse;
+    width: 600px;
+    margin: auto;
+}
+
+.table_container {
+    overflow-x: auto;
+}
+.table_header {
+    background-color: crimson;
+    color: white;
+    font-weight: normal;
+}
+
+.table_cell {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 20px
+}
+
+.table_row:hover {
+    background-color: rgb(71, 13, 233);
+}
+ 
