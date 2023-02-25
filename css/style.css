@@ -70,6 +70,7 @@ html {
 .table_container {
     overflow-x: auto;
 }
+
 .table_header {
     background-color: crimson;
     color: white;
@@ -84,4 +85,3 @@ html {
 .table_row:hover {
     background-color: rgb(71, 13, 233);
 }
- 

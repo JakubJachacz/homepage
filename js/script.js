@@ -1,13 +1,23 @@
-let button = document.querySelector(".button");
-let body = document.querySelector(".body");
-let themeName = document.querySelector(".themeName");
+{
+  const welcome = () => {
+    console.log("Witam wszystkich developerów!");
+  }
 
-button.addEventListener("click", () => {
-   body.classList.toggle("dark");
+  welcome();
+}
 
- if(body.classList.contains("dark")) {
-   themeName.innerText = "jasny";
- }  else {
-   themeName.innerText = "ciemny";
- }
-});
+{
+  const toggleTheme = () => {
+    const button = document.querySelector(".button");
+    const body = document.querySelector(".body");
+    const themeName = document.querySelector(".themeName");
+
+    button.addEventListener("click", () => {
+      body.classList.toggle("dark");
+      themeName.innerText = body.classList.contains("dark") ? "jasny" : "ciemny";
+    });
+  };
+
+  toggleTheme();
+
+}
